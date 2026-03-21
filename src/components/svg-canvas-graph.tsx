@@ -346,7 +346,7 @@ const SvgCanvas = () => {
                         );
                     };
 
-                    if (stnCoreEl instanceof SVGPathElement) {
+                    if (stnCoreEl instanceof SVGGeometryElement) {
                         // sample 20 points uniformly along the path
                         const totalLength = stnCoreEl.getTotalLength();
                         if (totalLength > 0) {
